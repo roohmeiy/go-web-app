@@ -1,0 +1,12 @@
+linters:
+  disable-all: true
+  enable:
+    - typecheck
+
+issues:
+  max-same-issues: 0
+  max-issues-per-linter: 0
+  fix: true
+
+run:
+  timeout: 5m
